@@ -6,7 +6,7 @@ function predict() {
         return;
     }
 
-    fetch("http://localhost:8000/predict", {
+    fetch("https://breast-cancer-ml-app-1-h09v.onrender.com/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
